@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0802747A5EB1BBE0AAC92E5E /* libPods-LunBoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2362E3D94870528D67F8430F /* libPods-LunBoTests.a */; };
+		9C46B6E61EB978DD00C8AC4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B6E51EB978DD00C8AC4A /* main.m */; };
+		9C46B6E91EB978DD00C8AC4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B6E81EB978DD00C8AC4A /* AppDelegate.m */; };
+		9C46B6EC1EB978DD00C8AC4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B6EB1EB978DD00C8AC4A /* ViewController.m */; };
+		9C46B6EF1EB978DD00C8AC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C46B6ED1EB978DD00C8AC4A /* Main.storyboard */; };
+		9C46B6F11EB978DD00C8AC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C46B6F01EB978DD00C8AC4A /* Assets.xcassets */; };
+		9C46B6F41EB978DD00C8AC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C46B6F21EB978DD00C8AC4A /* LaunchScreen.storyboard */; };
+		9C46B6FF1EB978DD00C8AC4A /* LunBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B6FE1EB978DD00C8AC4A /* LunBoTests.m */; };
+		9C46B70A1EB978DD00C8AC4A /* LunBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B7091EB978DD00C8AC4A /* LunBoUITests.m */; };
+		9C46B7191EB979A500C8AC4A /* AutoPicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B7181EB979A500C8AC4A /* AutoPicScrollView.m */; };
+		9C46B71C1EB981B500C8AC4A /* ContentImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B71B1EB981B500C8AC4A /* ContentImageView.m */; };
+		9C46B71F1EB9B28A00C8AC4A /* TimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B71E1EB9B28A00C8AC4A /* TimeLabel.m */; };
+		9C46B7221EB9BFB300C8AC4A /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B7211EB9BFB300C8AC4A /* GoodsModel.m */; };
+		9C46B7251EBB0B1D00C8AC4A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C46B7241EBB0B1D00C8AC4A /* DetailViewController.m */; };
+		E598A1BB4A15CBD935AA9AE4 /* libPods-LunBoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58D11419AC2415051398C0C /* libPods-LunBoUITests.a */; };
+		EB4FE2D95262D50B69813958 /* libPods-LunBo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA1BEE1472E08C7DC17BF3F /* libPods-LunBo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C46B6FB1EB978DD00C8AC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C46B6D91EB978DD00C8AC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C46B6E01EB978DD00C8AC4A;
+			remoteInfo = LunBo;
+		};
+		9C46B7061EB978DD00C8AC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C46B6D91EB978DD00C8AC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C46B6E01EB978DD00C8AC4A;
+			remoteInfo = LunBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2362E3D94870528D67F8430F /* libPods-LunBoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LunBoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457C00DED2B704514168F99C /* Pods-LunBoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunBoUITests/Pods-LunBoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA1BEE1472E08C7DC17BF3F /* libPods-LunBo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LunBo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		792F9411D054F29F1EB8C14F /* Pods-LunBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunBo/Pods-LunBo.release.xcconfig"; sourceTree = "<group>"; };
+		7A3D84762C16F3AB89D8F35D /* Pods-LunBoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunBoUITests/Pods-LunBoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C46B6E11EB978DD00C8AC4A /* LunBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C46B6E51EB978DD00C8AC4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C46B6E71EB978DD00C8AC4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C46B6E81EB978DD00C8AC4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C46B6EA1EB978DD00C8AC4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C46B6EB1EB978DD00C8AC4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C46B6EE1EB978DD00C8AC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C46B6F01EB978DD00C8AC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C46B6F31EB978DD00C8AC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C46B6F51EB978DD00C8AC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C46B6FA1EB978DD00C8AC4A /* LunBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C46B6FE1EB978DD00C8AC4A /* LunBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoTests.m; sourceTree = "<group>"; };
+		9C46B7001EB978DD00C8AC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C46B7051EB978DD00C8AC4A /* LunBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C46B7091EB978DD00C8AC4A /* LunBoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoUITests.m; sourceTree = "<group>"; };
+		9C46B70B1EB978DD00C8AC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C46B7171EB979A500C8AC4A /* AutoPicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoPicScrollView.h; sourceTree = "<group>"; };
+		9C46B7181EB979A500C8AC4A /* AutoPicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoPicScrollView.m; sourceTree = "<group>"; };
+		9C46B71A1EB981B500C8AC4A /* ContentImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentImageView.h; sourceTree = "<group>"; };
+		9C46B71B1EB981B500C8AC4A /* ContentImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentImageView.m; sourceTree = "<group>"; };
+		9C46B71D1EB9B28A00C8AC4A /* TimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLabel.h; sourceTree = "<group>"; };
+		9C46B71E1EB9B28A00C8AC4A /* TimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLabel.m; sourceTree = "<group>"; };
+		9C46B7201EB9BFB300C8AC4A /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		9C46B7211EB9BFB300C8AC4A /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		9C46B7231EBB0B1D00C8AC4A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9C46B7241EBB0B1D00C8AC4A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A58D11419AC2415051398C0C /* libPods-LunBoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LunBoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEF3FDD81C5836F4B79C2A2 /* Pods-LunBoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LunBoTests/Pods-LunBoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F78B9652E9ABB7A0378B97AE /* Pods-LunBoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunBoTests/Pods-LunBoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB776BF5EEF294F7FDFAABB8 /* Pods-LunBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LunBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LunBo/Pods-LunBo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C46B6DE1EB978DD00C8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4FE2D95262D50B69813958 /* libPods-LunBo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B6F71EB978DD00C8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0802747A5EB1BBE0AAC92E5E /* libPods-LunBoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B7021EB978DD00C8AC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E598A1BB4A15CBD935AA9AE4 /* libPods-LunBoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62FD3DE27C4A1FBE4F418906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB776BF5EEF294F7FDFAABB8 /* Pods-LunBo.debug.xcconfig */,
+				792F9411D054F29F1EB8C14F /* Pods-LunBo.release.xcconfig */,
+				F78B9652E9ABB7A0378B97AE /* Pods-LunBoTests.debug.xcconfig */,
+				EFEF3FDD81C5836F4B79C2A2 /* Pods-LunBoTests.release.xcconfig */,
+				457C00DED2B704514168F99C /* Pods-LunBoUITests.debug.xcconfig */,
+				7A3D84762C16F3AB89D8F35D /* Pods-LunBoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83F32F1068757CAC8E05EDA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA1BEE1472E08C7DC17BF3F /* libPods-LunBo.a */,
+				2362E3D94870528D67F8430F /* libPods-LunBoTests.a */,
+				A58D11419AC2415051398C0C /* libPods-LunBoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C46B6D81EB978DD00C8AC4A = {
+			isa = PBXGroup;
+			children = (
+				9C46B6E31EB978DD00C8AC4A /* LunBo */,
+				9C46B6FD1EB978DD00C8AC4A /* LunBoTests */,
+				9C46B7081EB978DD00C8AC4A /* LunBoUITests */,
+				9C46B6E21EB978DD00C8AC4A /* Products */,
+				62FD3DE27C4A1FBE4F418906 /* Pods */,
+				83F32F1068757CAC8E05EDA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C46B6E21EB978DD00C8AC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C46B6E11EB978DD00C8AC4A /* LunBo.app */,
+				9C46B6FA1EB978DD00C8AC4A /* LunBoTests.xctest */,
+				9C46B7051EB978DD00C8AC4A /* LunBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C46B6E31EB978DD00C8AC4A /* LunBo */ = {
+			isa = PBXGroup;
+			children = (
+				9C46B6E71EB978DD00C8AC4A /* AppDelegate.h */,
+				9C46B6E81EB978DD00C8AC4A /* AppDelegate.m */,
+				9C46B6EA1EB978DD00C8AC4A /* ViewController.h */,
+				9C46B6EB1EB978DD00C8AC4A /* ViewController.m */,
+				9C46B7171EB979A500C8AC4A /* AutoPicScrollView.h */,
+				9C46B7181EB979A500C8AC4A /* AutoPicScrollView.m */,
+				9C46B71A1EB981B500C8AC4A /* ContentImageView.h */,
+				9C46B71B1EB981B500C8AC4A /* ContentImageView.m */,
+				9C46B7231EBB0B1D00C8AC4A /* DetailViewController.h */,
+				9C46B7241EBB0B1D00C8AC4A /* DetailViewController.m */,
+				9C46B71D1EB9B28A00C8AC4A /* TimeLabel.h */,
+				9C46B71E1EB9B28A00C8AC4A /* TimeLabel.m */,
+				9C46B7201EB9BFB300C8AC4A /* GoodsModel.h */,
+				9C46B7211EB9BFB300C8AC4A /* GoodsModel.m */,
+				9C46B6ED1EB978DD00C8AC4A /* Main.storyboard */,
+				9C46B6F01EB978DD00C8AC4A /* Assets.xcassets */,
+				9C46B6F21EB978DD00C8AC4A /* LaunchScreen.storyboard */,
+				9C46B6F51EB978DD00C8AC4A /* Info.plist */,
+				9C46B6E41EB978DD00C8AC4A /* Supporting Files */,
+			);
+			path = LunBo;
+			sourceTree = "<group>";
+		};
+		9C46B6E41EB978DD00C8AC4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C46B6E51EB978DD00C8AC4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C46B6FD1EB978DD00C8AC4A /* LunBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C46B6FE1EB978DD00C8AC4A /* LunBoTests.m */,
+				9C46B7001EB978DD00C8AC4A /* Info.plist */,
+			);
+			path = LunBoTests;
+			sourceTree = "<group>";
+		};
+		9C46B7081EB978DD00C8AC4A /* LunBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C46B7091EB978DD00C8AC4A /* LunBoUITests.m */,
+				9C46B70B1EB978DD00C8AC4A /* Info.plist */,
+			);
+			path = LunBoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C46B6E01EB978DD00C8AC4A /* LunBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C46B70E1EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBo" */;
+			buildPhases = (
+				20693EC929E5B16A40B19A1D /* [CP] Check Pods Manifest.lock */,
+				9C46B6DD1EB978DD00C8AC4A /* Sources */,
+				9C46B6DE1EB978DD00C8AC4A /* Frameworks */,
+				9C46B6DF1EB978DD00C8AC4A /* Resources */,
+				D919E38B9345B35AA27D49BD /* [CP] Embed Pods Frameworks */,
+				D5D679E7846ABAE04C842491 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunBo;
+			productName = LunBo;
+			productReference = 9C46B6E11EB978DD00C8AC4A /* LunBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C46B6F91EB978DD00C8AC4A /* LunBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C46B7111EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBoTests" */;
+			buildPhases = (
+				AD6D6DF9B40E0E6073251D3C /* [CP] Check Pods Manifest.lock */,
+				9C46B6F61EB978DD00C8AC4A /* Sources */,
+				9C46B6F71EB978DD00C8AC4A /* Frameworks */,
+				9C46B6F81EB978DD00C8AC4A /* Resources */,
+				3B927440672D9AA409F1FE54 /* [CP] Embed Pods Frameworks */,
+				05D7CF5E23AAD6C2341B631C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C46B6FC1EB978DD00C8AC4A /* PBXTargetDependency */,
+			);
+			name = LunBoTests;
+			productName = LunBoTests;
+			productReference = 9C46B6FA1EB978DD00C8AC4A /* LunBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C46B7041EB978DD00C8AC4A /* LunBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C46B7141EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBoUITests" */;
+			buildPhases = (
+				4F0A4C75E873D78CB34CCDFB /* [CP] Check Pods Manifest.lock */,
+				9C46B7011EB978DD00C8AC4A /* Sources */,
+				9C46B7021EB978DD00C8AC4A /* Frameworks */,
+				9C46B7031EB978DD00C8AC4A /* Resources */,
+				BC8BCC6115818144EB6D1CDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C46B7071EB978DD00C8AC4A /* PBXTargetDependency */,
+			);
+			name = LunBoUITests;
+			productName = LunBoUITests;
+			productReference = 9C46B7051EB978DD00C8AC4A /* LunBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C46B6D91EB978DD00C8AC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = XSService;
+				TargetAttributes = {
+					9C46B6E01EB978DD00C8AC4A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2U5L8EXZDH;
+						ProvisioningStyle = Automatic;
+					};
+					9C46B6F91EB978DD00C8AC4A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2U5L8EXZDH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C46B6E01EB978DD00C8AC4A;
+					};
+					9C46B7041EB978DD00C8AC4A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2U5L8EXZDH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C46B6E01EB978DD00C8AC4A;
+					};
+				};
+			};
+			buildConfigurationList = 9C46B6DC1EB978DD00C8AC4A /* Build configuration list for PBXProject "LunBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C46B6D81EB978DD00C8AC4A;
+			productRefGroup = 9C46B6E21EB978DD00C8AC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C46B6E01EB978DD00C8AC4A /* LunBo */,
+				9C46B6F91EB978DD00C8AC4A /* LunBoTests */,
+				9C46B7041EB978DD00C8AC4A /* LunBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C46B6DF1EB978DD00C8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C46B6F41EB978DD00C8AC4A /* LaunchScreen.storyboard in Resources */,
+				9C46B6F11EB978DD00C8AC4A /* Assets.xcassets in Resources */,
+				9C46B6EF1EB978DD00C8AC4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B6F81EB978DD00C8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B7031EB978DD00C8AC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D7CF5E23AAD6C2341B631C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunBoTests/Pods-LunBoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20693EC929E5B16A40B19A1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B927440672D9AA409F1FE54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunBoTests/Pods-LunBoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0A4C75E873D78CB34CCDFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6D6DF9B40E0E6073251D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8BCC6115818144EB6D1CDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunBoUITests/Pods-LunBoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D679E7846ABAE04C842491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunBo/Pods-LunBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D919E38B9345B35AA27D49BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LunBo/Pods-LunBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C46B6DD1EB978DD00C8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C46B6EC1EB978DD00C8AC4A /* ViewController.m in Sources */,
+				9C46B7221EB9BFB300C8AC4A /* GoodsModel.m in Sources */,
+				9C46B71F1EB9B28A00C8AC4A /* TimeLabel.m in Sources */,
+				9C46B7251EBB0B1D00C8AC4A /* DetailViewController.m in Sources */,
+				9C46B7191EB979A500C8AC4A /* AutoPicScrollView.m in Sources */,
+				9C46B6E91EB978DD00C8AC4A /* AppDelegate.m in Sources */,
+				9C46B6E61EB978DD00C8AC4A /* main.m in Sources */,
+				9C46B71C1EB981B500C8AC4A /* ContentImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B6F61EB978DD00C8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C46B6FF1EB978DD00C8AC4A /* LunBoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C46B7011EB978DD00C8AC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C46B70A1EB978DD00C8AC4A /* LunBoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C46B6FC1EB978DD00C8AC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C46B6E01EB978DD00C8AC4A /* LunBo */;
+			targetProxy = 9C46B6FB1EB978DD00C8AC4A /* PBXContainerItemProxy */;
+		};
+		9C46B7071EB978DD00C8AC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C46B6E01EB978DD00C8AC4A /* LunBo */;
+			targetProxy = 9C46B7061EB978DD00C8AC4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C46B6ED1EB978DD00C8AC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C46B6EE1EB978DD00C8AC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C46B6F21EB978DD00C8AC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C46B6F31EB978DD00C8AC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C46B70C1EB978DD00C8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C46B70D1EB978DD00C8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C46B70F1EB978DD00C8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB776BF5EEF294F7FDFAABB8 /* Pods-LunBo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C46B7101EB978DD00C8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792F9411D054F29F1EB8C14F /* Pods-LunBo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C46B7121EB978DD00C8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78B9652E9ABB7A0378B97AE /* Pods-LunBoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunBo.app/LunBo";
+			};
+			name = Debug;
+		};
+		9C46B7131EB978DD00C8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEF3FDD81C5836F4B79C2A2 /* Pods-LunBoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunBo.app/LunBo";
+			};
+			name = Release;
+		};
+		9C46B7151EB978DD00C8AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457C00DED2B704514168F99C /* Pods-LunBoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunBo;
+			};
+			name = Debug;
+		};
+		9C46B7161EB978DD00C8AC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3D84762C16F3AB89D8F35D /* Pods-LunBoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2U5L8EXZDH;
+				INFOPLIST_FILE = LunBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XSS.LunBoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunBo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C46B6DC1EB978DD00C8AC4A /* Build configuration list for PBXProject "LunBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C46B70C1EB978DD00C8AC4A /* Debug */,
+				9C46B70D1EB978DD00C8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C46B70E1EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C46B70F1EB978DD00C8AC4A /* Debug */,
+				9C46B7101EB978DD00C8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C46B7111EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C46B7121EB978DD00C8AC4A /* Debug */,
+				9C46B7131EB978DD00C8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C46B7141EB978DD00C8AC4A /* Build configuration list for PBXNativeTarget "LunBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C46B7151EB978DD00C8AC4A /* Debug */,
+				9C46B7161EB978DD00C8AC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C46B6D91EB978DD00C8AC4A /* Project object */;
+}
